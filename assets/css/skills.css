@@ -1,0 +1,75 @@
+.skills {
+    display: flex;
+    flex-direction: column;
+}
+
+.skills .tools ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.skills .tools ul li img {
+    max-width: 50px;
+    max-height: 50px;
+    margin: 0.5rem 1rem;
+}
+
+.skills .personal ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.skills .personal li {
+    padding: 0.5rem;
+    margin: 0 1rem 0 0.5rem;
+    position: relative;
+    width: 11rem;
+    text-align: left;
+    line-height: 1.25rem;
+}
+
+.skills .personal li::before {
+    content: '';
+    display: inline-block;
+    width: 0.75rem;
+    height: 0.75rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url('../icons/dot.svg');
+    margin-right: 0.5rem;
+    position: absolute;
+    left: -0.5rem;
+    top: 0.7rem;
+}
+
+@media screen and (min-width: 768px) {
+    .skills {
+        display: grid;
+        grid-template-columns: 0.9fr 1fr;
+        text-align: center;
+    }
+
+    .skills .tools {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .skills .personal ul {
+        display: flex;
+        flex-direction: column;
+        height: 8rem;
+    }
+}
