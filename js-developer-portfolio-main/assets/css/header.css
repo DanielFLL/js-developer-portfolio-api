@@ -8,14 +8,14 @@
 .header::after {
     content: '';
     display: inline-block;
-    position: absolute;
-    top: 1rem;
-    right: 1rem;
     width: 2rem;
     height: 2rem;
     background-repeat: no-repeat;
     background-size: contain;
-    background-image: url('../img/icons/header.svg');
+    background-image: url(../img/icons/dots.svg);
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
 }
 
 .header .photo {
@@ -32,7 +32,7 @@
 .information {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: start;
     width: 100%;
 }
 
@@ -40,7 +40,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin: .5rem;
+    margin: 0.5rem;
     font-size: 1.125rem;
 }
 
@@ -51,46 +51,37 @@
     height: 1rem;
     background-repeat: no-repeat;
     background-size: contain;
-    margin-right: .5rem;
+    margin-right: 0.5rem;
 }
 
-.information .job::before {
+.information p:nth-child(1)::before {
     background-image: url('../img/icons/job.svg');
 }
 
-.information .location::before {
+.information p:nth-child(2)::before {
     background-image: url('../img/icons/location.svg');
 }
 
-.information .email::before {
+.information p:nth-child(3)::before {
+    background-image: url('../img/icons/whats.svg');
+}
+
+.information p:nth-child(4)::before {
     background-image: url('../img/icons/email.svg');
 }
 
-.information .phone::before {
-    background-image: url('../img/icons/phone.svg');
-}
 
-@media only screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {
     .header {
-        display: grid;
-        grid-template-areas:
-            "photo title"
-            "photo information"
-        ;
+        flex-direction: row;
+        justify-content: center;
+        gap: 4rem;
     }
-
-    .header .photo {
-        grid-area: photo;
-        margin: 0 auto;
+    .text {
+        max-width: 240px;
     }
-
     .header .title {
-        grid-area: title;
+        text-wrap: wrap;
         text-align: start;
-        max-width: 210px;
-    }
-
-    .header .information {
-        grid-area: information;
     }
 }
