@@ -45,7 +45,21 @@
                 "https://raw.githubusercontent.com/DanielFLL/js-developer-portfolio-api/main/assets/img/cssdeveloper.svg",
                 "https://raw.githubusercontent.com/DanielFLL/js-developer-portfolio-api/main/assets/img/progrdozero.svg",
                 "https://raw.githubusercontent.com/DanielFLL/js-developer-portfolio-api/main/assets/img/logicaprogra.svg"]
-    }
+    },
+    "school": [
+      {
+        "name": "dio.me",
+        "text": "Web Development! All I need to know in one place"
+      },
+      {
+        "name": "USP - Metrado em Físico-Química",
+        "text": "São Carlos - SP | 2013 - 2015"
+      },
+      {
+        "name": "UNESP - Bacharelado em Química Industrial",
+        "text": "Araraquara - SP | 2018 - 2012"
+      }
+    ]
   },
   "portfolio": [
     {
