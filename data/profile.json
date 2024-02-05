@@ -8,33 +8,25 @@
   "skills": {
     "hardSkills": [
       {
-        "name": "Nodejs",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/js.png"
+        "name": "JS",
+        "logo": "https://raw.githubusercontent.com/DanielFLL/js-developer-portfolio-api/main/data/imgs/js.svg"
       },
       {
-        "name": "Java",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/java.png"
+        "name": "HTML",
+        "logo": "https://raw.githubusercontent.com/DanielFLL/js-developer-portfolio-api/main/data/imgs/html.svg"
       },
       {
-        "name": "Angular",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/angular.png"
+        "name": "CSS",
+        "logo": "https://raw.githubusercontent.com/DanielFLL/js-developer-portfolio-api/main/data/imgs/css.svg"
       },
       {
-        "name": "React",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/react.png"
-      },
-      {
-        "name": "Mongodb",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/mongodb.png"
-      },
-      {
-        "name": "Postgresql",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/postgresql.png"
+        "name": "Github",
+        "logo": "https://raw.githubusercontent.com/DanielFLL/js-developer-portfolio-api/main/data/imgs/github.svg"
       }
     ],
     "softSkills": [
-      "Empatia",
-      "Liderança",
+      "Integridade",
+      "Coerência",
       "Trabalho em equipe",
       "Flexibilidade",
       "Organização"
@@ -42,37 +34,61 @@
   },
   "languages": [
     "Português BR",
-    "Inglês (intermediário)",
-    "Espanhol (intermediário)",
-    "Italiano (iniciante)"
+    "Inglês (avançado)",
+    "Espanhol (iniciante)"
   ],
+  "education": {
+    "dio": {
+      "logo": ["https://raw.githubusercontent.com/DanielFLL/js-developer-portfolio-api/main/assets/img/jsdeveloper.svg",
+                "https://raw.githubusercontent.com/DanielFLL/js-developer-portfolio-api/main/assets/img/desenjogos.svg",
+                "https://raw.githubusercontent.com/DanielFLL/js-developer-portfolio-api/main/assets/img/htmldeveloper.svg",
+                "https://raw.githubusercontent.com/DanielFLL/js-developer-portfolio-api/main/assets/img/cssdeveloper.svg",
+                "https://raw.githubusercontent.com/DanielFLL/js-developer-portfolio-api/main/assets/img/progrdozero.svg",
+                "https://raw.githubusercontent.com/DanielFLL/js-developer-portfolio-api/main/assets/img/logicaprogra.svg"]
+    }
+  },
   "portfolio": [
     {
-      "name": "Curso Ministrado na DIO para a criação de uma Pokedex",
-      "url": "https://github.com/RenanJPaula/js-developer-pokedex",
+      "name": "Pokedex online com uso da PokeAPI",
+      "url": "https://github.com/DanielFLL/js-developer-pokedex-Daniel",
       "github": true
     },
     {
-      "name": "Curso Ministrado na DIO para a criação de uma página de portfolio",
-      "url": "https://github.com/RenanJPaula/js-developer-portfolio",
+      "name": "Simulador de Piano online feito com HTML/CSS/JS",
+      "url": "https://github.com/DanielFLL/js-piano-simulator",
+      "github": true
+    },
+    {
+      "name": "Site baseado no aranha-verso em HTML/CSS/JS",
+      "url": "https://github.com/DanielFLL/spider-man-multiverses-dio-Daniel",
+      "github": true
+    },
+    {
+      "name": "Site de cafeteria feito com Bootstrap",
+      "url": "https://github.com/DanielFLL/trilha-css-iniciando-bootstrap",
+      "github": true
+    },
+    {
+      "name": "Site cópia da HBO Max feito com HTML/CSS",
+      "url": "https://github.com/DanielFLL/trilha-css-desafio-05-hbomax",
       "github": true
     }
   ],
   "professionalExperience": [
     {
-      "name": "Arquiteto de software / S3 BANK",
-      "period": "2022 - até o momento",
-      "description": "É um prazer trabalhar ao lado de tantos profissionais excepcionais e construir tantas inovações de mercado."
+      "name": "Residência no Japão",
+      "period": "04/2020 a 08/2023",
+      "description": "Múltiplas experiências de morar e trabalhar em outra cultura com pessoas de países distintos."
     },
     {
-      "name": "Software Engineering Lead / DIO",
-      "period": "2021 - 2022",
-      "description": "Foi um grande prazer fazer parte deste time fantástico e poder contribuir com a transformação de tantas vidas."
+      "name": "Analista Laboratório e Qualidade - Cutrale",
+      "period": "02/2018 a 11/2019",
+      "description": "Apoio ao laboratório de controle de qualidade na fabricação de sucos de laranja. Controle de matéria prima. Fatoração de soluções. Aferição de vidraria e equipamentos. Controle de água de caldeira."
     },
     {
-      "name": "CEO / Brain Machine",
-      "period": "2016 - 2021",
-      "description": "Anos incríveis ao lado de pessoas maravilhosas ajudando muitas empresas por todo o mundo."
+      "name": "Auditor de Eficiência Jr. - Cutrale",
+      "period": "06/2017 a 02/2018",
+      "description": "Controle de eficiência de extratoras de suco de laranja dos laboratórios de matéria prima. Fornece relatórios semanais a superiores sobre as extratoras."
     }
   ]
 }
